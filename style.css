@@ -1,0 +1,53 @@
+/*  font-family: 'Montserrat', sans-serif;  
+barvy: pozadí stránky: #FAFAFA
+       barva písma, tlačítko 2: #8B8B8B
+       modrá tlačítko...: #407BFF
+*/ 
+
+.kontejner {
+       background-color: #FAFAFA;
+       font-family: 'Montserrat', sans-serif;
+       text-align: center;
+}
+
+.hlavicka {
+       display: flex;
+       justify-content: center;
+}
+
+.cestovatel {
+       margin: 60px 80px 30px 80px;
+       flex: 1 0 350px;
+}
+
+.cestovatel-fotka {
+       width: 100%;
+}
+
+.nazev {
+       font-weight: medium;
+       font-size: 28px;
+}
+
+.linka {
+       color: #407BFF;
+       width: 40px;
+}
+
+.hlavni {
+       margin: 0 20px;
+}
+
+.hlavni p {
+       color: #8B8B8B;
+       margin-bottom: 30px;
+}
+
+.tlacitka {
+       display: flex;
+       flex-direction: column;
+}
+
+.tlacitko {
+       flex: 1 0 100px;;
+}
