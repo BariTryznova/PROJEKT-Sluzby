@@ -24,6 +24,12 @@ barvy: pozadí stránky: #FAFAFA
        width: 100%;
 }
 
+@media screen and (min-width: 640px) {
+       .cestovatel-fotka {
+              max-width: 400px;
+       }
+}
+
 .nazev {
        font-weight: medium;
        font-size: 28px;
@@ -41,6 +47,9 @@ barvy: pozadí stránky: #FAFAFA
 .hlavni p {
        color: #8B8B8B;
        margin-bottom: 30px;
+       font-size: 16px;
+       font-weight: light;
+
 }
 
 .tlacitka {
@@ -48,6 +57,146 @@ barvy: pozadí stránky: #FAFAFA
        flex-direction: column;
 }
 
-.tlacitko {
-       flex: 1 0 100px;;
+@media screen and (min-width: 640px) {
+       .tlacitka {
+              flex-direction: row;
+              justify-content: center;
+       }
+
+       .dobrodruzstvi {
+              margin-right: 20px;
+       }
 }
+
+
+
+.tlacitko {
+       flex: 1 0 100px;
+       padding: 10px 30px;
+       color: white;
+       border-radius: 20px;
+       font-size: 16px;
+       border: none;
+}
+
+.dobrodruzstvi {
+       margin-bottom: 10px;
+       background-color: #407BFF;
+}
+
+.pohoda {
+       background-color: #8B8B8B;
+}
+
+.odstavec h2 {
+       font-size: 16px;
+       font-weight: medium;
+       margin-top: 50px;
+}
+
+.odstavec p {
+       font-size: 16px;
+       font-weight: light;
+       color: #8B8B8B;
+}
+
+.ikona {
+       display: flex;
+       margin: 0 20px;
+       box-shadow: 0px 4px 6px #407BFF1F;
+       padding: 20px;
+       color: #8B8B8B;
+       font-size: 13px;
+}
+
+.icon {
+       margin-right: 30px;
+}
+
+@media screen and (min-width: 640px) {
+       .sluzby-list, .delegati-icons {
+              display: flex;
+       }
+
+       .ikona {
+              display: block;
+       }
+
+       .icon {
+              margin: 0;
+       }
+
+       .odstavec p {
+              margin-bottom: 60px;
+       }
+
+       .odstavec h2 {
+              margin-top: 50px;
+       }
+}
+
+@media screen and (min-width: 1100px) {
+       .desktop {
+              display: flex;
+              flex-wrap: wrap;
+              text-align: left;
+       }
+
+       .hlavicka {
+              flex: 1 0 40%;
+              order: 2;
+       }
+
+       .desktop2 {
+              flex: 1 0 40%;
+              order: 1;
+              margin-top: 120px;
+              margin-left: 80px;
+       }
+
+       .tlacitko {
+              flex: 1 0 50%;
+       }
+
+
+       .desktop3 {
+              display: flex;
+       }
+
+       .ikona {
+              flex: 1 0 15%;
+              order: 1;
+              margin: 10px;
+              text-align: center;
+       }
+
+       .sluzby {
+              flex: 1 0 40%;
+              order: 2;
+              text-align: left;
+              margin-left: 80px;
+       }
+
+       .zajezdy {
+              margin-left: 80px;
+       }
+
+       .sluzby p {
+              margin-right: 80px;
+       }
+
+       .desktop4 {
+              display: flex;
+              text-align: left;
+       }
+
+       .delegati {
+              margin-left: 80px;
+              margin-right: 80px;
+       }
+
+       .vylety, .slunecniky, .karavan {
+              margin-right: 0;
+       }
+
+} 
